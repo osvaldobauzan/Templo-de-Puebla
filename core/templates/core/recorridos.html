@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/3b45398fe5.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="dark:bg-stone-50">
+    <nav class=" dark:bg-stone-50">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="{% url 'index' %}">
+                <button type="button" class="flex items-center justify-center w-1/2 px-7 lg:px-5 py-2 text-sm transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto font-medium  dark:text-neutral-800 dark:bg-neutral-400">
+                    <span><</span>
+                </button>
+            </a>
+        </div>
+    </nav>
+    <section class="dark:bg-stone-50 ">      
+        <div class="dark:bg-stone-50 flex">
+          <div class="container flex flex-col items-center mt-5 lg:mt-0 px-4  mx-auto text-center sm:py-10 lg:pb-10 md:py-10 md:px-10 lg:px-32 dark:text-gray-900">
+            <div class="flex flex-col items-center text-center p-4">
+                <i class="fa-solid fa-person-walking fa-bounce fa-lg py-5" style="color: #0f5728;"></i>
+                  <h3 class="my-3 text-3xl font-semibold ">Recorridos</h3>
+
+              </div>
+
+              <div class="mt-10 px-4 py-10 space-y-14 justify-center max-w-2xl">
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-neutral-400 dark:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="pl-6 text-left font-light ">
+                        <h4 class="font-medium dark:text-neutral-700 text-2xl">Propósito: </h4>
+                        <p class="mt-2 dark:text-neutral-700">Somos los responsables de orientar a los visitantes al iniciar su experiencia en el evento de puertas abiertas del templo de Puebla, así como de los recorridos Internos dentro del templo.</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-neutral-400 dark:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="pl-6 text-left font-light ">
+                        <h4 class="font-medium  dark:text-neutral-700 text-2xl">Responsabilidades: </h4>
+                        <ul class="mt-2 space-y-1 text-neutral-700 list-disc list-inside ">
+                            <li>
+                                Orientar a los visitantes para el inicio del recorrido de puertas abiertas.
+                            </li>
+                            <li>
+                                Orientar a los visitantes hacia el inicio del recorrido del interior del templo.
+                            </li>
+                            <li>
+                                ⁠Colocación de cubre calzado a los visitantes.
+                            </li>
+                            <li>
+                                ⁠Recorrido en el interior del templo.
+                            </li>
+                            <li>
+                                Ayudar a hnos(hnas) con necesidades especiales.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-neutral-400 dark:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="pl-6 text-left font-light ">
+                        <h4 class="font-medium leadi dark:text-neutral-700 text-2xl">Requisitos: </h4>
+                        <ul class="mt-2 space-y-1 text-neutral-500 list-disc list-inside dark:text-neutral-700">
+                            <li>
+                                Ser recomendado por su líder.
+                            </li>
+                            <li>
+                                Ser amable, servicial, obediente, educado y responsable.
+                            </li>
+                            <li>
+                                Dispuesto a cumplir horario de su turno ( 5 hrs aprox. ).
+                            </li>
+                            <li>
+                                Se motiva por si mismo y busca maneras de servir.
+                            </li>
+                            <li>
+                                No se ofende con facilidad y es lento para la ira.
+                            </li>
+                            <li>
+                                Puede servir bajo presión y manejar situaciones estresantes con amabilidad.
+                            </li>
+                            <li>
+                                Mostrar siempre una sonrisa.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-neutral-400 dark:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="pl-6 text-left font-light ">
+                        <h4 class="font-medium leadi dark:text-neutral-700 text-2xl">Apariencia: </h4>
+                        <ul class="mt-2 space-y-1 text-neutral-500 list-disc list-inside dark:text-neutral-700">
+                            <li>
+                                Vestimenta con ropa formal de domingo.
+                            </li>
+                            <li>
+                                Corte de cabello adecuado no mechones, no teñido ejemplo: ( amarillo, verde, azul, morado, etc…) sin grecas o rayas.
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-neutral-400 dark:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="pl-6 text-left font-light ">
+                        <h4 class="font-medium leadi dark:text-neutral-700 text-2xl">Edad: </h4>
+                        <p class="pt-2">De los 90 voluntarios por Estaca o Distrito se requieren:</p>
+                        <ul class="mt-2 space-y-1 text-neutral-500 list-disc list-inside dark:text-neutral-700">
+                            <li>
+                                De 12 a 30 años 45 voluntarios incluyendo algunos matrimonios jóvenes.
+                            </li>
+                            <li>
+                                De 30 años en adelante 45 adultos incluyendo matrimonios.
+                            </li>
+                           
+                        </ul>
+                    </div>
+                </div>
+
+              </div>         
+            </div>
+      </section> 
+
+</body>
+</html>

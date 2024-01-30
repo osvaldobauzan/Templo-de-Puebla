@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/3b45398fe5.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body class="dark:bg-stone-50">
+    <nav class=" dark:bg-stone-50">
+        <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+            <a href="{% url 'index' %}">
+                <button type="button" class="flex items-center justify-center w-1/2 px-7 lg:px-5 py-2 text-sm transition-colors duration-200 bg-white border rounded-lg gap-x-2 sm:w-auto font-medium  dark:text-neutral-800 dark:bg-neutral-400">
+                    <span><</span>
+                </button>
+            </a>
+        </div>
+    </nav>
+    <section class="dark:bg-stone-50 ">      
+        <div class="dark:bg-stone-50 flex">
+          <div class="container flex flex-col items-center mt-5 lg:mt-0 px-4  mx-auto text-center sm:py-10 lg:pb-10 md:py-10 md:px-10 lg:px-32 dark:text-gray-900">
+            <div class="flex flex-col items-center text-center p-4">
+                <i class="fa-solid fa-lock fa-bounce fa-lg py-5" style="color: #933434;"></i>
+                  <h3 class="my-3 text-3xl font-semibold ">Protección y Seguridad</h3>
+                  <p class="mt-10 text-lg lg:mt-9 sm:mb-8 xl:max-w-3xl dark:text-gray-900">Somos el Sub Comité de Protección y Seguridad para el Evento de Puertas Abiertas y queremos mostrarles el Propósito de nuestra asignación.</p>
+
+              </div>
+
+              <div class="mt-10 px-4 py-10 space-y-14 justify-center max-w-2xl">
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-neutral-400 dark:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="pl-6 text-left font-light ">
+                        <h4 class="font-medium dark:text-neutral-700 text-2xl">Objetivo</h4>
+                        <p class="mt-2 dark:text-neutral-700">Cuidar y proteger la Integridad Física (Salud) y Material (Bienes) de todos los participantes al Evento con la ayuda de <span class="font-semibold"> 25 hermanas y/o hermanos</span> bien dispuestos.</p>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-neutral-400 dark:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="pl-6 text-left font-light ">
+                        <h4 class="font-medium  dark:text-neutral-700 text-2xl">Responsabilidades: </h4>
+                        <ul class="mt-2 space-y-1 text-neutral-700 list-disc list-inside ">
+                            <li>
+                                Proteger la llegada y el acceso de los Visitantes y Participantes, cuidando que su experiencia sea segura y memorable.
+                            </li>
+                            <li>
+                                Conocer las áreas de Primeros Auxilios para canalizar eficazmente a los que requieran atención médica
+                            </li>
+                            <li>
+                                Estar preparados para posibles eventualidades en cuanto a salud, tránsito interno y externo, riesgos climatológicos o de Seguridad.
+                            </li>
+                            <li>
+                                Salvaguardar todos los vehículos de los Visitantes ya sea dentro o fuera del Predio, así como sus pertenencias que no puedan introducir al Templo (Carreolas, Bolsas, Paraguas, etc.)
+                            </li>
+                            <li>
+                                Atender cualquier contingencia que se pudiera tener para proteger la integridad física de los Visitantes.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="flex">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center w-12 h-12 rounded-md dark:bg-neutral-400 dark:text-gray-900">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="w-7 h-7">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="pl-6 text-left font-light ">
+                        <h4 class="font-medium leadi dark:text-neutral-700 text-2xl">Requisitos y Características: </h4>
+                        <ul class="mt-2 space-y-1 text-neutral-500 list-disc list-inside dark:text-neutral-700">
+                            <li>
+                                Matrimonios o Hermanos (as) mayores de 18 años que tengan muy buena salud, pues se cubrirán turnos completos, varias horas de pie, áreas externa e internas, con clima variable.
+                            </li>
+                            <li>
+                                Apariencia Física Misional; buen corte de cabello, peinados moderados, maquillaje discreto, no vestidos escotados, cortos, ajustados o transparentes.
+                            </li>
+                            <li>
+                                Proactivo, buena actitud, amabilidad, detectar y solucionar necesidades, encauzar recursos donde se requieran.
+                            </li>
+                            <li>
+                                De fácil Sonrisa, amable y sincera. Muy corteses.Disponibilidad de servicio.
+                            </li>
+                            <li>
+                                Pacificador y Empático, saber determinar e informar de necesidades especiales.
+                            </li>
+                            <li>
+                                De fácil adaptabilidad, flexibilidad y disponibilidad para cambios de áreas, de acuerdo a circunstancias y necesidades.
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+              </div>         
+            </div>
+      </section> 
+
+</body>
+</html>

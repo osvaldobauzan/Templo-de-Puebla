@@ -7,23 +7,23 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="https://cdn.tailwindcss.com"></script>
+        <script src="https://kit.fontawesome.com/3b45398fe5.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="">
         
     </head>
     <body class="dark:bg-stone-50">
+      
       <section class="dark:bg-stone-50">      
-        <div class="dark:bg-stone-50">
-          <div class="container flex flex-col items-center mt-5 lg:mt-0 px-4 pt-0 pb-24 mx-auto text-center sm:py-10 lg:pb-56 md:py-10 md:px-10 lg:px-32 dark:text-gray-900">
+        <div class="dark:bg-stone-50 m-12">
+          <div class="container flex flex-col items-center mt-5 lg:mt-0 px-4 pt-0 pb-4 sm:pb-10 mx-auto text-center sm:py-10 lg:pb-56 md:py-10 md:px-10 lg:px-32 dark:text-gray-900">
             <h1 class="text-5xl font-bold leadi sm:text-6xl sm:mt-10 xl:max-w-3xl dark:text-gray-900">Puertas Abiertas</h1>
             <hr class="w-3/4 my-5 border-gray-900 border-1">
             <h1 class="text-5xl font-bold leadi sm:text-6xl xl:max-w-3xl dark:text-gray-900">Templo de Puebla</h1>
-            <p class="mt-6 mb-8 text-lg sm:mb-12 xl:max-w-3xl dark:text-gray-900">¡Hola! ¿Te gustaría ser un voluntario durante las puertas abiertas? Aquí podrás encontrar más información!</p>
-            <div class="flex flex-wrap justify-center">
-              <button type="button" class="px-8 py-3 m-10 text-lg font-semibold rounded dark:bg-gray-800 dark:text-gray-50">Inscríbete</button>
-            </div>
+            <p class="mt-10 text-lg lg:mt-14 sm:mb-8 xl:max-w-3xl dark:text-gray-900">¡Hola! ¿Te gustaría ser un voluntario durante las puertas abiertas? Aquí podrás encontrar más información!</p>
+            
           </div>
         </div>
-        <img src="https://noticias-mx.laiglesiadejesucristo.org/media/960x540/Puebla-Exta.jpg" alt="" class="w-3/4 mx-auto mb-12 -mt-20 rounded-lg shadow-md lg:-mt-40 bg-gray-500">
+        <img src="https://noticias-mx.laiglesiadejesucristo.org/media/960x540/Puebla-Exta.jpg" alt="" class="w-3/4 mx-auto mb-12 mt-15 rounded-lg shadow-md lg:-mt-40 bg-gray-500">
       </section>
 
       <section class="m-20 dark:bg-stone-50">
@@ -32,55 +32,42 @@
         </div>
         <div class="container mx-auto grid justify-center gap-4 sm:grid-cols-2 lg:grid-cols-3">
           <div class="flex flex-col items-center  text-center p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 dark:text-gray-800">
-              <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-            </svg>
-            <a href="">
+            <i class="fa-solid fa-laptop fa-beat-fade fa-lg py-5" style="color: #376ecd;"></i>
+            <a href="{% url 'tecnologia' %}">
               <h3 class="my-3 text-3xl font-semibold hover:underline">Tecnología</h3>
             </a>
             
           </div>
           <div class="flex flex-col items-center text-center p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 dark:text-gray-800">
-              <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-            </svg>
-            <a href="">
-              <h3 class="my-3 text-3xl font-semibold hover:underline">Proteccion y Seguridad</h3>
+            <i class="fa-solid fa-lock fa-beat-fade fa-lg py-5" style="color: #933434;"></i>
+            <a href="{% url 'seguridad' %}">
+              <h3 class="my-3 text-3xl font-semibold hover:underline">Protección y Seguridad</h3>
             </a>
-            
           </div>
           <div class="flex flex-col items-center  text-center p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 dark:text-gray-800">
-              <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-            </svg>
-            <a href="">
+            <i class="fa-solid fa-bus fa-beat-fade fa-lg py-5" style="color: #85878a;"></i>
+            <a href="{% url 'estacionamiento' %}">
               <h3 class="my-3 text-3xl font-semibold hover:underline">Estacionamiento</h3>
             </a>
           </div>
           <div class="flex flex-col items-center text-center p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 dark:text-gray-800">
-              <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-            </svg>
-            <a href="">
+            <i class="fa-solid fa-person-walking fa-beat-fade fa-lg py-5" style="color: #0f5728;"></i>
+            <a href="{% url 'recorridos' %}">
               <h3 class="my-3 text-3xl font-semibold hover:underline">Recorridos</h3>
             </a>
             
           </div>
           <div class="flex flex-col items-center text-center p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 dark:text-gray-800">
-              <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-            </svg>
-            <a href="">
-              <h3 class="my-3 text-3xl font-semibold hover:underline">Traduccion</h3>
+            <i class="fa-solid fa-globe fa-beat-fade fa-lg py-5" style="color: #74C0FC;"></i>
+            <a href="{% url 'traduccion' %}">
+              <h3 class="my-3 text-3xl font-semibold hover:underline">Traducción</h3>
             </a>
             
           </div>
           <div class="flex flex-col items-center text-center p-4">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" class="w-8 h-8 dark:text-gray-800">
-              <path fill-rule="evenodd" d="M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z" clip-rule="evenodd"></path>
-            </svg>
-            <a href="">
-              <h3 class="my-3 text-3xl font-semibold hover:underline">Facilidades Fisicas</h3>
+            <i class="fa-solid fa-ruler fa-xl fa-beat-fade py-5" style="color: #FFD43B;"></i>
+            <a href="{% url 'facilidades'%}">
+              <h3 class="my-3 text-3xl font-semibold hover:underline">Facilidades Físicas</h3>
             </a>
             
           </div>
@@ -88,7 +75,7 @@
       </section>
 
       <div class="container max-w-2xl mb-10 mt-20 p-2 mx-auto rounded-md sm:p-4 dark:text-gray-100 dark:bg-stone-50">
-        <div class="container mx-auto p-4 my-6 space-y-2 text-center">
+        <div class="container mx-auto p-4 mb-14 space-y-2 text-center">
           <h2 class="text-5xl font-bold text-gray-900">Calendario</h2>
         </div>
         <div class="overflow-x-auto rounded-xl">
@@ -467,6 +454,12 @@
                 
               </tbody>
             </table>
+          </div>
+
+          <div class="flex flex-wrap m-12 justify-center">
+            <a href="https://forms.office.com/pages/responsepage.aspx?id=9_PMdkih7kKscDZGUlWmsiqbw7t9kotKirggV9Xm5NFUOUc5U01PT0dYWUlQMldTV0ZZQ1hPUkQ1VC4u">
+              <button type="button" class="px-8 py-3 m-10 text-lg font-semibold rounded dark:bg-gray-800 dark:text-gray-50">Inscríbete</button>
+            </a>
           </div>
         </div>
     
